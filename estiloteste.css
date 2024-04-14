@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+#Boo {
+        font-size: xx-large;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+#TextosIniciais {
+    height: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#titulo {
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #b6b6b6;
+    color: #1a1a1a;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #b6b6b6;
+    padding: 30px;
+    display: flex;
+    gap: 2rem;
+}
+
+header img {
+    height: 5rem;
+    width: 5rem;
+    opacity: 0.8;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5d5d5d
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner-img {
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border-image: fill 0 linear-gradient(#0003, #000);
+    background-image: url("assets/banner-img.tmp");
+    background-repeat: repeat;
+    background-position: top;
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+#Perfis {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #1a1a1a;
+}
+
+#Perfis p {
+    color: #b6b6b6
+}
+
+#Projetos {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+
+#Perfis img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 20%;
+    filter:saturate(0.1) brightness(0.5);
+}
+
+#Projetos .Name {
+    text-align: left;
+}
+
+#Projetos img {
+    width: 5rem;
+    height: 5rem;
+    filter:saturate(0.1) brightness(0.5);
+}
+
+.card-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #b6b6b6;
+    padding: 20px;
+    text-align: center;
+}
